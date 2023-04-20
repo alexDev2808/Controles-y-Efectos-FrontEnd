@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hero-img{
+    width: 100%;
+    height: 75vh;
+    background: linear-gradient(to right,rgba(228, 58, 15, 0.5),rgba(0,0,0,0.5)), url('./ocean.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    color: white;
+    text-shadow: 0px 0px 4px #000;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 5%;
+}
+.hero-img h1{
+    font-size: 62px;
+    font-weight: bold;
+}
+.hero-img p {
+    font-size: 32px;
+    font-weight: 500;
+    text-shadow: 0px 0px 2px #000;
+}
+
+.nav {
+    width: 100%;
+    height: 80px;
+    background-color: #917FB3;
+    transition: all ease-in-out 0.3s;
+}
+.nav ul {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav ul li{
+    color: white;
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+}
+
+.nav.pined{
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    transition: all ease-in-out 0.5s;
+}
+.nav.pined ul li{
+    color: #000;
+    transition: all ease-in-out 0.5s;
+}
+.main .section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #BFCCB5;
+}
+.main .section-2 {
+    width: 100%;
+    height: 100vh;
+    background-color: #F7D060;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+}
